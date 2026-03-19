@@ -146,3 +146,4 @@
 /Users/dawsonpitcher/RiderProjects/Mission-10-Assignment/backend/bin/Debug/net10.0/runtimes/win-arm64/native/e_sqlite3.dll
 /Users/dawsonpitcher/RiderProjects/Mission-10-Assignment/backend/bin/Debug/net10.0/runtimes/win-x64/native/e_sqlite3.dll
 /Users/dawsonpitcher/RiderProjects/Mission-10-Assignment/backend/bin/Debug/net10.0/runtimes/win-x86/native/e_sqlite3.dll
+/Users/dawsonpitcher/RiderProjects/Mission-10-Assignment/backend/obj/Debug/net10.0/backend.sourcelink.json

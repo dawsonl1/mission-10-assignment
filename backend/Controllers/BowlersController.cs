@@ -16,9 +16,9 @@ public class BowlersController : ControllerBase
     }
 
     [HttpGet(Name = "GetBowlers")]
-    public IEnumerable<Bowler> GetBowlers()
+    public ActionResult<IEnumerable<Bowler>> GetBowlers()
     {
-        List<Bowler> bowlers = _context.Bowlers.Include(b => b.Team).ToList();
+        List<Bowler> bowlers = _context.Bowlers.Include(b => b.Team).Where(b => b.Team.TeamName == "Marlins" || b.Team.TeamName == "Sharks").ToList();
         return Ok(bowlers);
     }
 }

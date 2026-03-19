@@ -7,6 +7,4 @@ public class Team
     [Key]
     public int TeamID { get; set; }
     public required string TeamName { get; set; }
-
-    public List<Bowler> Bowlers { get; set; } = new();
 }
